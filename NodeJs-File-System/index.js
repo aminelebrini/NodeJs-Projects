@@ -1,5 +1,4 @@
-const { error } = require('console');
-const fs = require('fs');
+var fs = require('fs');
 
 fs.writeFile('nodejsFs.txt', 'HELLO NODE JS', (err) =>{
     if(err) throw err;

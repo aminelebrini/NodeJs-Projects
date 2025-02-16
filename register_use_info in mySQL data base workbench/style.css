@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(2, 106, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20%
+}
+input, button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 8px;
+    border-color: transparent;
+}
